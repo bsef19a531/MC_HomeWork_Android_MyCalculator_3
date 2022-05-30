@@ -31,8 +31,8 @@
 
     <EditText
         android:id="@+id/calculatorPanel"
-        android:layout_width="375dp"
-        android:layout_height="69dp"
+        android:layout_width="639dp"
+        android:layout_height="71dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="10dp"
@@ -96,6 +96,7 @@
         app:iconTint="#757575"
         app:layout_constraintEnd_toStartOf="@+id/backBtn"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/calculatorPanel" />
 
@@ -253,6 +254,7 @@
         app:iconTint="#757575"
         app:layout_constraintEnd_toStartOf="@+id/Btn8"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ACbtn" />
 
@@ -364,6 +366,7 @@
         app:iconTint="#757575"
         app:layout_constraintEnd_toStartOf="@+id/Btn1"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Btn9" />
 
